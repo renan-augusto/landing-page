@@ -1,0 +1,15 @@
+<section class="form-section">
+    <div class="text">
+        <h3>
+            Lorem Ipsum
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur</p>
+    </div>
+    <form [formGroup]="newsLetterForm">
+        <label for="name">Name</label>
+        <input formControlName="name" id="name" />
+        <label for="email">Email</label>
+        <input formControlName="email" id="email" />
+        <btn-primary btn-text="Lorem Ipsum" variant="secondary" [disabled]="newsLetterForm.invalid" (submit)="onSubmit()" [loading]="loading()"></btn-primary>
+    </form>
+</section>
