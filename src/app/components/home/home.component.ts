@@ -1,10 +1,11 @@
-import { Component, Input, Output } from '@angular/core';
+import { Component, Input, NgModule, Output } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { NgOptimizedImage } from '@angular/common';
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { NewsletterFormComponent } from '../newsletter-form/newsletter-form.component';
 import { CardComponent } from '../card/card.component';
 import { FooterComponent } from '../footer/footer.component';
+
 
 @Component({
   selector: 'app-home',
